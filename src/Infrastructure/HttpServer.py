@@ -1,11 +1,13 @@
 import json
 from urllib import request
 
-def Post(params):
-    return "666"
+class HttpServer(object):
+    def Post(self,params):
+        return "666"
+        
+    @classmethod
+    def Get(self,url):
+        response =request.urlopen(url)
+        print(response.read().decode('utf-8'))
 
-def Get(url):
-    response = request.urlopen(url)
-    print(response.read().decode('utf-8'))
-
-print(Get("http://localhost:51140/weatherforecast")) 
+print(HttpServer.Get("http://www.baidu.com")) 
