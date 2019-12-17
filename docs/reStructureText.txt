@@ -1,0 +1,5 @@
+pip install PyMySQL
+
+pip3 install sqlalchemy -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+pip install flask-sqlalchemy -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
