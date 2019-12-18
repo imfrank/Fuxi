@@ -3,3 +3,8 @@ pip install PyMySQL
 pip3 install sqlalchemy -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 
 pip install flask-sqlalchemy -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+pip install mysqlclient
+
+#启动程序
+#set FLASK_APP=Web/app.py
+#flask run

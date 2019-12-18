@@ -17,3 +17,5 @@ tests/
 
 requirements.txt
 软件外部依赖 Python 包列表。
+
+vscode 有些会报红线修改配置 "python.linting.pylintEnabled": false,
