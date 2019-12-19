@@ -5,6 +5,9 @@ pip3 install sqlalchemy -i http://pypi.douban.com/simple/ --trusted-host pypi.do
 pip install flask-sqlalchemy -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 pip install mysqlclient
 
+pip install pylint-flask
+
+"python.linting.pylintArgs": ["--load-plugins", "pylint-flask"]
 #启动程序
 #set FLASK_APP=Web/app.py
 #flask run

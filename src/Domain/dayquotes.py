@@ -1,3 +1,4 @@
+
 class DayQuotes(object):
     def __init__(self,id,name,code,openingPrice,closingPrice,highestPrice,minimumPrice,transactionDate):   
         self.id=id
