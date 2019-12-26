@@ -6,7 +6,12 @@ pip install flask-sqlalchemy -i http://pypi.douban.com/simple/ --trusted-host py
 pip install mysqlclient
 
 pip install pylint-flask
+#python swagger 安装 
+#1.确保您拥有最新的设置工具
+pip install -U setuptools
+pip install flasgger
 
+ vscode 配置
 "python.linting.pylintArgs": ["--load-plugins", "pylint-flask"]
 #启动程序
 #set FLASK_APP=Web/app.py
