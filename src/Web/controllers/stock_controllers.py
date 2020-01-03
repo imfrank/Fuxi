@@ -4,29 +4,19 @@ blueprint_dayquotes = Blueprint('dayquotes', __name__,template_folder='templates
 
 @blueprint_dayquotes.route('/dayquotes')
 def Index():
-     """Example endpoint returning a list of colors by palette
+     """日行情
     This is using docstrings for specifications.
     ---
     parameters:
-      - name: palette
+      - name: code
         in: path
-        type: string
-        enum: ['all', 'rgb', 'cmyk']
+        type: string     
         required: true
-        default: all
-    definitions:
-      Palette:
-        type: object
-        properties:
-          palette_name:
-            type: array
-            items:
-              $ref: '#/definitions/Color'
-      Color:
-        type: string
+        default: ""
+    
     responses:
       200:
-        description: A list of colors (may be filtered by palette)
+        description: miaoshu
         schema:
           $ref: '#/definitions/Palette'
         examples:

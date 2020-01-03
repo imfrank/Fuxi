@@ -9,5 +9,3 @@ class HttpServer(object):
     def Get(self,url):
         response =request.urlopen(url)
         print(response.read().decode('utf-8'))
-
-print(HttpServer.Get("http://www.baidu.com")) 
